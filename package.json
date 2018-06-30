@@ -1,0 +1,15 @@
+{
+  "name": "pubbot",
+  "version": "1.0.0",
+  "description": "Little bot that searchs for article titles and return author as requested in magazine pub",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Luiz Panariello",
+  "license": "ISC",
+  "dependencies": {
+    "crawler": "^1.1.4",
+    "safe-decode-uri-component": "^1.1.3-native"
+  }
+}
